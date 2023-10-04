@@ -40,7 +40,7 @@ async function displayUser(username) {
 function handleError(err) {
   console.log('OH NO!');
   console.log(err);
-  $n.textContent = `Algo salió mal: ${err}`;
+  $n.textContent = `Algo salió mal: ${err}`; //Se mejoro el uso del template string
 }
 
 
